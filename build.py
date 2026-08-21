@@ -350,7 +350,7 @@ def build_post(p: dict) -> str:
         '<p class="back"><a href="../index.html">← 返回博客首页</a></p>'
     )
     return page(
-        p["title"], main, "../assets/style.css", "../", p["summary"]
+        p["title"], main, "assets/style.css", "../", p["summary"]
     )
 
 
